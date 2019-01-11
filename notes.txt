@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=TesDIVA28rM&t=609s
+following these videos
+
+expo start from project folder
+
+Need emulator up so sh studio.sh from android-studio/bin
+
+then click run on emulator 
+
+then allow permissions
+
+then hit the back button which should start the build
+
+Everything should be running now
+
+
+
+Watchman errors https://stackoverflow.com/questions/42711008/error-when-running-watchman
+  echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances
+echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events
+echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+watchman shutdown-server
